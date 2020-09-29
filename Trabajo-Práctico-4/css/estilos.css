@@ -1,0 +1,15 @@
+.estilo-disc {
+    list-style-type: disc;    
+}
+
+.estilo-circle {
+    list-style-type: circle;
+}
+
+.estilo-square {
+    list-style-type: square;
+}
+.padre{
+    display: flex;
+}
+
