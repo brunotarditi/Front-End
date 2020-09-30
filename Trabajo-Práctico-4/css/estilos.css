@@ -1,15 +1,13 @@
-.estilo-disc {
-    list-style-type: disc;    
-}
-
-.estilo-circle {
-    list-style-type: circle;
-}
-
-.estilo-square {
-    list-style-type: square;
-}
 .padre{
     display: flex;
+    
 }
+.borde{
+    border: 2px solid #7C7C7C;   
+    padding: 2%;
+    margin: 5px;    
+}
+
+
+
 
