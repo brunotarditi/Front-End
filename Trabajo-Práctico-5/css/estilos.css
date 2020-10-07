@@ -1,0 +1,47 @@
+.boton{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #ffffff;
+    color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
+.boton:hover{
+    color: #ffffff;
+    background-color: #1883ba;
+}
+
+.contenedor{
+    text-align: left;
+    padding-left: 40%;
+    
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, .5);
+    transform: scale(0);
+    transition: transform .3s;
+}
+
+.modal_content {
+
+  background-color:#ffffff;
+  width:600px;
+  height: 300px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.modal_show {
+    transform: scale(1);
+}

@@ -7,13 +7,14 @@ if (dni < 0 || dni > 99999999) {
     var letra = prompt('Introduzca solo la letra correspondiente a su DNI').toUpperCase();
     var posicion = (dni % 23);
     var letraDni = obtenerLetra(posicion);
+    console.log(letraDni);
 
     if (letra != letraDni && (letra === '' || letra.trim())) {
         document.write("<h1>La letra que ha indicado no es correcta.😓</h1>");
     }
     else {
-        document.write("<h1>Fabuloso, ¡Coinciden!</h1><br>")
-        document.write("<h1>Su DNI completo es: " + dni + "-" + letra + " </h1>")
+        document.write("<h1>Fabuloso, ¡Coinciden!</h1><br>");
+        document.write("<h1>Su DNI completo es: " + dni + "-" + letra + " </h1>");
     }
 }
 
