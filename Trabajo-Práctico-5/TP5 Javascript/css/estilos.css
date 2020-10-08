@@ -1,3 +1,4 @@
+/* Boton para ejercicio 5 */
 .boton{
     text-decoration: none;
     padding: 10px;
@@ -13,12 +14,14 @@
     background-color: #1883ba;
 }
 
+/* Contenedor para ejercicio 5 */
 .contenedor{
     text-align: left;
     padding-left: 40%;
     
 }
 
+/* Modal para ejercicio 6 */
 .modal{
     position: fixed;
     top: 0;
@@ -33,6 +36,7 @@
     transition: transform .3s;
 }
 
+/* modal_modal para ejercicio 6 */
 .modal_content {
 
   background-color:#ffffff;
@@ -41,7 +45,63 @@
   padding: 20px;
   border-radius: 10px;
 }
-
+/* modal_show para ejercicio 6 */
 .modal_show {
     transform: scale(1);
 }
+
+/* A partir de aquí, estos estilos son para ejercicio 8 */
+.tabla{
+    border: 1px solid black;
+    width: 90%;
+    height: 150%;
+    background-color:#042A42;
+}
+
+.pantalla{
+    grid-column: 1 / -1;
+    height: 85%;
+    width: 93%;
+    background-color: rgba(255, 255, 255, 0.75);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+    font-size:  2rem;
+    text-align: right;
+}
+
+
+button{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    background-color: #ffffff;
+    color: #1883ba;
+    border-radius: 4px;
+    font-size:  1.8rem;
+    border: 1px solid #1883ba;
+    
+    
+}
+
+button:hover{
+    color: #ffffff;
+    background-color: #1883ba;
+}
+
+
+.calculadora{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    
+} 
+
+
+
+
