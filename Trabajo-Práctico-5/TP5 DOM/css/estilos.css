@@ -1,0 +1,29 @@
+.boton{
+    
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #AC12D9;
+    color: #ffffff;
+    border-radius: 6px;
+    border: 2px solid #5F034E;
+}
+.boton:hover{
+    color: #AC12D9;
+    background-color: #ffffff;
+}
+
+.centro{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#error{
+    display:none;
+    color:#f00;
+    background-color:#ff0;
+    font-size:15px;
+    width:400px;
+    border:1px solid #00f;
+    padding:5px;
+    }
