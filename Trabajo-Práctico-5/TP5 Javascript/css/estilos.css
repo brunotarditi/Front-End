@@ -21,33 +21,8 @@
     
 }
 
-/* Modal para ejercicio 6 */
-.modal{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, .5);
-    transform: scale(0);
-    transition: transform .3s;
-}
-
-/* modal_modal para ejercicio 6 */
-.modal_content {
-
-  background-color:#ffffff;
-  width:600px;
-  height: 300px;
-  padding: 20px;
-  border-radius: 10px;
-}
-/* modal_show para ejercicio 6 */
-.modal_show {
-    transform: scale(1);
+.etiqueta{
+    font-size: 25px;
 }
 
 /* A partir de aquí, estos estilos son para ejercicio 8 */
